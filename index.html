@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mitali Swamy | Portfolio</title>
+
+<style>
+:root {
+    --bg: #fdf6ff;
+    --text: #333;
+    --card: #ffffff;
+    --accent: #cdb4db;
+    --highlight: #a2d2ff;
+}
+
+.dark {
+    --bg: #1e1e2f;
+    --text: #f5f5f5;
+    --card: #2c2c3e;
+    --accent: #6a4c93;
+    --highlight: #3a86ff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: 0.3s;
+}
+
+header {
+    background: var(--accent);
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: var(--highlight);
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: var(--card);
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: var(--accent);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--accent);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mitali Swamy</h1>
+    <p>Computer Engineering Student | Cybersecurity Enthusiast</p>
+
+    <button onclick="toggleDark()">🌙 Toggle Dark Mode</button>
+    <br>
+    <button onclick="window.open('MitaliSwamy_Resume.pdf','_blank')">
+        📄 View Resume
+    </button>
+</header>
+
+<section>
+    <h2>Goal</h2>
+    <div class="card">
+        <p>Seeking internship opportunities to contribute to impactful projects (Summer ’26, Fall ’26, Summer ’27).</p>
+    </div>
+</section>
+
+<section>
+    <h2>Summary</h2>
+    <div class="card">
+        <p>
+        Third-year engineering student with a solid foundation in communication skills,
+        computer skills, and basic programming. Experienced in team projects and passionate
+        about applying innovative solutions to real-world problems.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Professional Experience</h2>
+    <div class="card">
+        <h3>Python Intern - Imperium Official</h3>
+        <p><i>Apr 2025 - Oct 2025</i></p>
+        <ul>
+            <li>Assisted in the development and maintenance of Python-based applications.</li>
+            <li>Collaborated with the engineering team to troubleshoot and resolve code issues.</li>
+            <li>Gained hands-on experience in a professional software development environment.</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <div class="card">
+        <p><b>B.E. Computer Engineering</b> (2023 - Present)</p>
+        <p>Pimpri Chinchwad College of Engineering and Research</p>
+        <p>CGPA: 9.38</p>
+    </div>
+
+    <div class="card">
+        <p><b>HSC</b> - 72.2%</p>
+        <p>Pratibha International School</p>
+    </div>
+
+    <div class="card">
+        <p><b>SSC</b> - 95%</p>
+        <p>Kendriya Vidyalaya CME</p>
+    </div>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Autism Detection: ML Model</h3>
+        <ul>
+            <li>Developed a Machine Learning model designed to assist in the detection of autism.</li>
+            <li>Used Random Forest model for prediction based on behavioral and comprehension inputs.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Python Webscraper</h3>
+        <ul>
+            <li>Created a web scraper in Python to automate data extraction tasks.</li>
+            <li>Extracted data from Fortune 500 website for financial analysis.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Elevator Lost Item Tracker</h3>
+        <ul>
+            <li>Developed a web-based application to report and track lost items in elevators.</li>
+            <li>Includes Admin Dashboard, Technician Panel, and incident tracking system.</li>
+            <li>Implemented using HTML, CSS, JavaScript, PHP, and MySQL.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Cybersecurity Internship Project (DVWA)</h3>
+        <ul>
+            <li>Performed vulnerability assessment using DVWA.</li>
+            <li>Demonstrated SQL Injection, Cross-Site Scripting (XSS), and Command Injection.</li>
+            <li>Used Nmap for network scanning and reconnaissance.</li>
+            <li>Studied OWASP Top 10 vulnerabilities and mitigation techniques.</li>
+        </ul>
+    </div>
+
+</section>
+
+<section>
+    <h2>Technical Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Languages: C++, Python, SQL, HTML, CSS</li>
+            <li>Tools: MS Excel, Arduino</li>
+            <li>Soft Skills: Communication, Leadership, Teamwork, Problem Solving</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Certifications & Coursework</h2>
+    <div class="card">
+        <ul>
+            <li>Google Cybersecurity Certificate</li>
+            <li>ACM Winter School: Edge AI</li>
+            <li>NPTEL: Cryptography, Ethical Hacking, DBMS, Computer Graphics</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Leadership & Activities</h2>
+    <div class="card">
+        <ul>
+            <li>Head of Promotion Team - ACM Student Chapter</li>
+            <li>Head of Cultural Team - NAVDHARA Event</li>
+            <li>Participant - ROBORASHTRA, Edge AI Hackathon (IISc), Coding Competitions</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: mitsintern@gmail.com</p>
+        <p>Phone: +91 9730629401</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Mitali Swamy</p>
+</footer>
+
+<script>
+function toggleDark() {
+    document.body.classList.toggle("dark");
+}
+</script>
+
+</body>
+</html>
